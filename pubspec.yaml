@@ -1,0 +1,53 @@
+name: bookshop
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0-174.2.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # men ishlatgan packagelar shular
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+
+
+# icon chiqishi uchun
+  flutter_launcher_icons: "^0.13.1"
+
+# icon qaysi dasturlarda chiqishi kerakligi uchun 
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/gif/logos.png"
+  min_sdk_android: 21 
+  web:
+    generate: true
+    image_path: "assets/gif/logos.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/gif/logos.png"
+    icon_size: 48 
+  macos:
+    generate: true
+    image_path: "assets/gif/logos.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/gif/
+    - assets/img/
+    - assets/history/
